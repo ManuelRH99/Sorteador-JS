@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -36,7 +35,7 @@ p {
     font-size: 32px;
 }
 
-button{
+button {
     display: block;
     margin: 0 auto;
     width: 342px;
@@ -92,4 +91,35 @@ input {
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0.2);
     color: #aca7a7;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .input-min,
+    .input-max {
+        margin: 0 10px 20px 0;
+        width: 145px;
+        height: 60px;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    .input-result {
+
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .button-class {
+
+        margin-bottom: 50px;
+        padding: 5px;
+
+    }
+
 }
